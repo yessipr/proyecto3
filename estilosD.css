@@ -1,0 +1,64 @@
+.container > div,header,footer{   
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid white;
+    padding:  10px;
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "footer footert";
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px; 
+}
+
+header{
+grid-area: header;
+color: white;
+}
+article{
+grid-area: content;
+color: white;
+}
+aside{
+grid-area: sidebar;
+color: white;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-family: "Gill Sans", 'Gill Sans MT',
+    calibri, 'Trebuchet MS',sans sans-serif;
+}
+ul {
+    list-style-type: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    }
+
+    li{ float:right;}
+    li a{
+        display: block;
+        color:white;
+        text-align:left;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover{
+        background-color:gray;
+    }
+    body{
+        background-color:black;
+        margin: 0;
+    }
+    a{
+        color:chartreuse;
+    }
+ 
+
+    
