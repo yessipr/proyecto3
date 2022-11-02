@@ -1,8 +1,22 @@
 h1{
     text-align: center;
-    color:white;
+    color:black;
     font-family: "Gill Sans", 'Gill Sans MT',
     calibri, 'Trebuchet MS',sans sans-serif;
+}
+.cuerpo{
+    height: 400px;
+    background-color:black;
+    border-bottom: 0%;
+}
+.piedepagina{
+    height: 100px;
+    background-color:white;
+    border-bottom: 0%;
+}
+.cabeza{
+    height: 100px;
+    background-color:white;
 }
 ul {
     list-style-type: none;
@@ -22,37 +36,19 @@ ul {
     }
     li a:hover{
         background-color:gray;}
-    
+        
         body{
             background-color:white;
             margin: 0;
         }
-        .cabeza{
-            height: 100px;
-            background-color:black;
+        P{
+            text-align: center;
         }
-        .cuerpo{
-            height: 900px;
-            background-color:white;
-            border-bottom: 0%;
-        }
-        .piedepagina{
-            height: 100px;
-            background-color:dimgray;
-        }
-        img{
-            float:left;
-        }
-        div img{
-        float:right;
+        h2{
+            text-align: center;
+            color: white;
         }
         p{
             text-align: center;
             color: white;
         }
-        h2{
-            text-align: center;
-        }
-
-       
-       

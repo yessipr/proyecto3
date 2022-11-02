@@ -15,7 +15,7 @@ ul {
     li{ float:right;}
     li a{
         display: block;
-        color:black;
+        color:white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -24,7 +24,7 @@ ul {
         background-color:gray;}
     
         body{
-            background-color:white;
+            background-color:black;
             margin: 0;
         }
         .cabeza{
@@ -32,9 +32,10 @@ ul {
             background-color:black;
         }
         .cuerpo{
-            height: 900px;
+            height: 400px;
             background-color:white;
             border-bottom: 0%;
+            text-align: center;
         }
         .piedepagina{
             height: 100px;
@@ -46,13 +47,13 @@ ul {
         div img{
         float:right;
         }
-        p{
-            text-align: center;
-            color: white;
-        }
         h2{
+            color: white;
             text-align: center;
         }
-
+        section img{
+            float:center;
+        }
+       
        
        
